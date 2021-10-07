@@ -1,5 +1,5 @@
 # FisicaScript
- Projeto para facilitar seus cálculos de física.
+ Site para facilitar seus cálculos de física.
 
  # Objetivos do projeto 
    
