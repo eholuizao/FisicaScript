@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torriceli</title>
+    <link rel="stylesheet" href="styles/style2.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/apple-touch-icon.png">
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+    <main>
+        <header>
+            <h1>Fisica<span>Script</span></h1>
+            <h2>Facilitando seus cálculos de física</h2>
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Início</li>
+                    </a>
+                    <a href="velMed.html">
+                        <li>Velocidade Média</li>
+                    </a>
+                    <a href="acelMed.html">
+                        <li>Aceleração Média</li>
+                    </a>
+                    <a href="horariaV.html">
+                        <li>Função horária da velocidade</li>
+                    </a>
+                    <a href="#">
+                        <li>Torriceli</li>
+                    </a>
+                    <a href="horariaM.html">
+                        <li>Função Horária do espaço (MRU)</li>
+                    </a>
+                    <a href="horariaMV.html">
+                        <li>Função Horária do espaço (MRUV)</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+      
+        <article>
+            <div id="usuario">
+                <h2>Torriceli</h2>
+                <label for="input1">V<sub>0</sub>² :</label>
+                <input type="number" name="input1" id="input1" value="1">
+                <label for="input2">a:</label>
+                <input type="number" name="input2" id="input2" value="1">
+                <label for="input3">&Delta;s:</label>
+                <input type="number" name="input3" id="input3" value="1">
+                <br>
+                <input type="submit" value="Calcular" name="button" id="button">
+            </div>
+            <div id="calculos">
+                <p>V² = V<sub>0</sub>² + 2 * a * &Delta;s (no S.I)</p>
+                <p id="par"></p>
+            </div>
+        </article>
+    </main>
+    <script type="module" src="scripts/torriceli.js"></script>
+</body>
+</html>
